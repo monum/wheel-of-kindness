@@ -1,3 +1,14 @@
+var pieces = [
+  "Write a letter to a veteran. To volunteer to be a penpal, please email <a href mailto:vetvolunteer@boston.gov>vetvolunteer@boston.gov</a>.",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "p6",
+  "p7",
+  "p8"
+];
+
 function getRandomInt(min, max) {
     var min = Math.ceil(min);
     var max = Math.floor(max);
@@ -29,7 +40,8 @@ function getRandomInt(min, max) {
     var actualDeg = deg % 360;
     var piece = Math.ceil(-1*(actualDeg)/45);
     console.log(actualDeg, piece);
-    d3.select('#button').html("You spun " + piece +"!<br/><br/>Click here to try again!");
+    d3.select('#result').html(pieces[0]);
+    d3.select('#button').html("Click here to try again!");
     wheel.style.transform = `rotate(${actualDeg}deg)`;
   });
 })();
