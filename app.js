@@ -1,6 +1,6 @@
 var pieces = [
-  "Write a letter to a veteran! To volunteer to be a penpal, please email <a href = "mailto:vetvolunteer@boston.gov">vetvolunteer@boston.gov</a>.",
-  "Sew a face covering. Details via <a href="bostonareamaskinitiative.com",bostonareamaskinitiative.com</a>.",
+  "Write a letter to a veteran! To volunteer to be a penpal, please email <a href = 'mailto:vetvolunteer@boston.gov'>vetvolunteer@boston.gov</a>.",
+  "Sew a face covering. Details via <a href='bostonareamaskinitiative.com',bostonareamaskinitiative.com</a>.",
   "Call an older adult. Say hello to someone you know via phone or video chat.",
   "Thank a front-line service worker! When you get groceries, or see someone who works in health care, take a moment to share gratitude.",
   "Read a book to our BPS scholars. Post the video on Twitter with the hashtag #GoodnightScholarsBPS.",
