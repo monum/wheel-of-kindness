@@ -40,7 +40,7 @@ function getRandomInt(min, max) {
     var actualDeg = deg % 360;
     var piece = Math.ceil(-1*(actualDeg)/45);
     console.log(actualDeg, piece);
-    d3.select('#result').html(pieces[0]);
+    d3.select('#result').html(pieces[piece-1]);
     d3.select('#button').html("Click here to try again!");
     wheel.style.transform = `rotate(${actualDeg}deg)`;
   });
