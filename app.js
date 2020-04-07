@@ -1,7 +1,7 @@
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
-    return 1+Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 (function() {
@@ -13,6 +13,11 @@ function getRandomInt(min, max) {
     d3.select('#button').html("Spinning!");
     startButton.style.pointerEvents = 'none';
     deg = -1*getRandomInt(720,2880);
+    
+    if (!(deg % 2)){
+      deg+=1;
+    }
+
     wheel.style.transition = 'all 4s ease-out';
     wheel.style.transform = `rotate(${deg}deg)`;
   });
@@ -22,7 +27,7 @@ function getRandomInt(min, max) {
     wheel.style.transition = 'none';
     var actualDeg = deg % 360;
     var piece = Math.ceil(-1*(actualDeg)/45);
-    console.log(piece);
+    console.log(actualDeg, piece);
     d3.select('#button').html("You spun " + piece +"!<br/><br/>Click here to try again!");
     wheel.style.transform = `rotate(${actualDeg}deg)`;
   });
