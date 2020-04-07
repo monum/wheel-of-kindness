@@ -1,12 +1,13 @@
 function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
+    var min = Math.ceil(min);
+    var max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 (function() {
-  const wheel = document.querySelector('#wheel');
-  const startButton = document.querySelector('#button');
+  var wheel = document.querySelector('#wheel');
+  var startButton = document.querySelector('#button');
+  
   var deg = 0;
 
   startButton.addEventListener('click', () => {
