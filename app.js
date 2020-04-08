@@ -6,7 +6,7 @@ var pieces = [
   "<b>Read a book to our BPS scholars.</b> <br>Post your video on Twitter with the hashtag #GoodnightScholarsBPS.",
   "<b>Organize a virtual block party!</b> <br>Post the playlist on Twitter with the hashtag #BOSdanceparty.",
   "<b>Share your #IStayHomeFor story.</b> <br>Post a photo of someone you care about using the hashtags #BosStayHome and #IStayHomeFor.",
-  "<b>Challenge BPS Superintendent Dr.Cassellius to 10 pushups!</b> <br> Post a video of yourself doing 10 pushups with the hashtag #See10Do10Challenge."
+  "<b>Challenge BPS Superintendent Dr. Cassellius to 10 pushups!</b> <br> Post a video of yourself doing 10 pushups with the hashtag #See10Do10Challenge."
 ]
 
 function getRandomInt(min, max) {
