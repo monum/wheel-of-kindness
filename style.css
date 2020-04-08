@@ -10,6 +10,7 @@
     background: #333;
     color: #fff;
     font-size: 26px;
+    font-family: "Montserrat", Arial, sans-serif;
     width: 180px;
     padding: 10px;
     margin-top: 20px;
@@ -19,7 +20,7 @@
 }
 
 #button:hover {
-  background: #000;
+  background: #288BE4;
 }
 
 #wheel {
@@ -31,7 +32,7 @@
   position: absolute;
   width: 60px;
   left: 169px;
-  top: -20px;
+  top: -10px;
   z-index: 999;
 }
 

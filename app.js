@@ -1,12 +1,12 @@
 var pieces = [
-  "Write a letter to a veteran! To volunteer to be a penpal, email <a href = 'mailto:vetvolunteer@boston.gov'>vetvolunteer@boston.gov</a>.",
+  "Write a letter to a veteran! To volunteer, email <a href = 'mailto:vetvolunteer@boston.gov'>vetvolunteer@boston.gov</a>.",
   "Sew a face covering. Details via <a href='bostonareamaskinitiative.com',bostonareamaskinitiative.com</a>.",
   "Call an older adult. Say hello to someone you know via phone or video chat.",
-  "Thank a front-line service worker! When you get groceries, or see someone who works in health care, take a moment to share gratitude.",
+  "Thank a front-line service worker! Take a moment to share gratitude however you feel comfortable.",
   "Read a book to our BPS scholars. Post your video on Twitter with the hashtag #GoodnightScholarsBPS.",
-  "Organize a virtual block party! Post the playlist link on Twitter with the hashtag #BOSdanceparty",
-  "Share your #IStayHomeFor story. Post a photo of someone you care about use the hashtags #BosStayHome and #IStayHomeFor.",
-  "Challenge BPS Superintendent Dr. Cassellius to 10 pushups! Take a video of yourself doing 10 pushups and post online with hashtag #See10Do10Challenge."
+  "Organize a virtual block party! Post the playlist on Twitter with the hashtag #BOSdanceparty.",
+  "Share your #IStayHomeFor story. Post a photo of someone you care about using the hashtags #BosStayHome and #IStayHomeFor.",
+  "Challenge BPS Superintendent Dr. Cassellius to 10 pushups! Post a video of yourself doing 10 pushups with the hashtag #See10Do10Challenge."
 ];
 
 function getRandomInt(min, max) {
@@ -22,7 +22,7 @@ function getRandomInt(min, max) {
   var deg = 0;
 
   startButton.addEventListener('click', () => {
-    d3.select('#button').html("Your One Boston Day action will be...");
+    d3.select('#button').html("Your One Boston Day action is...");
     startButton.style.pointerEvents = 'none';
     deg = -1*getRandomInt(720,2880);
 
