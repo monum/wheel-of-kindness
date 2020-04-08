@@ -5,6 +5,11 @@
   margin: 0 auto;
 }
 
+#bostonday {
+  width: 100%;
+  height: 100%;
+}
+
 #button {
     text-align: center;
     background: #333;
