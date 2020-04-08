@@ -30,12 +30,14 @@
 
 #marker {
   position: absolute;
-  width: 60px;
-  left: 169px;
-  top: -10px;
+  width: 40px;
+  left: 180px;
+  top: 330px;
   z-index: 999;
 }
 
 #result {
-  margin: 20px;
+  text-align: center;
+  font-family: "Lora", "Cambria", serif;
+  margin: 40px;
 }
