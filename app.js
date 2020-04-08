@@ -1,5 +1,4 @@
 var pieces = [
-  font-family = "Lora", "Cambria", serif;
   "<b>Write a letter to a veteran!</b> <br>To volunteer, email <a href = 'mailto:vetvolunteer@boston.gov'>vetvolunteer@boston.gov</a>.",
   "<b>Sew a face covering.</b> <br>Details via <a href='bostonareamaskinitiative.com'>bostonareamaskinitiative.com</a>.",
   "<b>Call an older adult.</b> <br>Say hello to someone you know via phone or video chat.",
