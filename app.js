@@ -16,7 +16,7 @@ var tweets = [
   "thank a front-line service worker",
   "read a book to our BPS scholars",
   "organize a virtual block party",
-  "share my #IStayHomeFor story",
+  "share my IStayHomeFor story",
   "challenge BPS Superintendent Dr. Cassellius to 10 pushups"
 ];
 
