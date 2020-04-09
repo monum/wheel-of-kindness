@@ -24,11 +24,7 @@ function getRandomInt(min, max) {
   startButton.addEventListener('click', () => {
     d3.select('#button').html("Your One Boston Day action is...");
     startButton.style.pointerEvents = 'none';
-    deg = -1*getRandomInt(720,2880);
-
-    if (!(deg % 2)){
-      deg+=1;
-    }
+    deg = -1*(22.5 + 45*getRandomInt(16,64));
 
     wheel.style.transition = 'all 4s ease-out';
     wheel.style.transform = `rotate(${deg}deg)`;
