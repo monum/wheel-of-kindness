@@ -38,6 +38,9 @@ function getRandomInt(min, max) {
     console.log(actualDeg, piece);
     d3.select('#result').html(pieces[piece-1]);
     d3.select('#button').html("Click for another act of kindness!");
+    var tweet_text = pieces[piece-1];
+    var tweet_html = '<a href="https://twitter.com/intent/tweet?text='+ tweet_text + '&button_hashtag=OneBostonDay&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text="Test" data-show-count="false">Tweet #OneBostonDay</a>';
+    d3.select('#tweet').html(tweet_html);
     wheel.style.transform = `rotate(${actualDeg}deg)`;
   });
 })();
