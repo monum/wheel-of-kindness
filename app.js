@@ -10,14 +10,14 @@ var pieces = [
 ]
 
 var tweets = [
-  "write a letter to a veteran!",
-  "sew a face covering!",
-  "call an older adult!",
-  "thank a front-line service worker!",
-  "read a book to our BPS scholars!",
-  "organize a virtual block party!",
-  "share my #IStayHomeFor story!",
-  "challenge BPS Superintendent Dr. Cassellius to 10 pushups!"
+  "write a letter to a veteran",
+  "sew a face covering",
+  "call an older adult",
+  "thank a front-line service worker",
+  "read a book to our BPS scholars",
+  "organize a virtual block party",
+  "share my #IStayHomeFor story",
+  "challenge BPS Superintendent Dr. Cassellius to 10 pushups"
 ];
 
 function getRandomInt(min, max) {
@@ -50,7 +50,7 @@ function getRandomInt(min, max) {
     d3.select('#result').html(pieces[piece-1]);
     d3.select('#button').html("Click for another act of kindness!");
     var tweet_text = tweets[piece-1];
-    var tweet_html = '<a href="https://twitter.com/intent/tweet?text=I am going to '+ tweet_text + 'for #OneBostonDay. What will you do?&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text="Test" data-show-count="false">Tweet #OneBostonDay</a>';
+    var tweet_html = '<a href="https://twitter.com/intent/tweet?text=I am going to '+ tweet_text + ' for One Boston Day! What will you do?&button_hashtag=OneBostonDay&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text="Test" data-show-count="false">Tweet #OneBostonDay</a>';
     d3.select('#tweet').html(tweet_html);
     wheel.style.transform = `rotate(${actualDeg}deg)`;
   });
