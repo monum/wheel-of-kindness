@@ -28,14 +28,15 @@ function getRandomInt(min, max) {
 
 (function() {
   var wheel = document.querySelector('#wheel');
-  var startButton = document.querySelector('#button');
+  //var startButton = document.querySelector('#button');
 
   var deg = 0;
 
   startButton.addEventListener('click', () => {
     d3.select('#result').html("<b>Your One Boston Day action is...</b>");
     d3.select('#button').style('display','none');
-    startButton.style.pointerEvents = 'none';
+    d3.select('#tweet').style('display','none');
+    //startButton.style.pointerEvents = 'none';
     deg = -1*(22.5 + 45*getRandomInt(16,64));
 
     wheel.style.transition = 'all 4s ease-out';
@@ -43,7 +44,7 @@ function getRandomInt(min, max) {
   });
 
   wheel.addEventListener('transitionend', () => {
-    startButton.style.pointerEvents = 'auto';
+    //startButton.style.pointerEvents = 'auto';
     wheel.style.transition = 'none';
     var actualDeg = deg % 360;
     var piece = Math.ceil(-1*(actualDeg)/45);
