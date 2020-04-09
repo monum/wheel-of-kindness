@@ -28,7 +28,7 @@ function getRandomInt(min, max) {
 
 (function() {
   var wheel = document.querySelector('#wheel');
-  //var startButton = document.querySelector('#button');
+  var startButton = document.querySelector('#button');
 
   var deg = 0;
 
