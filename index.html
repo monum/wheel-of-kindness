@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <title>One Boston Day: Wheel of Kindness</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.1/d3.js"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -14,12 +17,26 @@
       <div id="sub-title">April 15, 2020</div>
     </header>
     <div id="wheel-container">
-      <img src="marker.png" id="marker"/>
       <img src="wheel.png" id="wheel"/>
+      <img src="marker.png" id="marker"/>
       <div id="result"></div>
-      <div id="button">Discover an act of kindness</div>
-      <div id="tweet"></div>
+      <div id="button">
+        <div id="button-text">Discover an act of kindness</div>
+      </div>
+      <div id="tweet">
+        <div id="tweet-text"></div>
+      </div>
     </div>
+    <footer style="text-align: center;">
+      <p style="font-size: 13px; line-height: 13px; color: #aaa;">
+          <a style="color: #888; text-decoration: none;" href="https://twitter.com/newurbanmechs">
+              <i class="fa fa-twitter" style="padding-right: 3px;"></i>New Urban Mechanics
+          </a>
+      </p>
+      <p style="font-size: 13px; line-height: 13px; color: #aaa;">
+          &copy; 2020
+      </p>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>
