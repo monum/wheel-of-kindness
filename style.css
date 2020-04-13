@@ -27,7 +27,8 @@ header {
 }
 
 #wheel {
-  width: 400px
+  max-width: 100%;
+  height: auto;
 }
 
 #marker {
@@ -42,6 +43,10 @@ header {
   text-align: center;
   margin-top: 40px;
   font-size: 20px;
+}
+
+#button-container {
+  margin-top: 20px;
 }
 
 #button {
@@ -59,11 +64,35 @@ header {
     display: table;
 }
 
-#button:hover {
+#try-again {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 24px;
+    width: 170px;
+    height: 84px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    display: none;
+    float: left;
+}
+
+#button:hover, #button:focus {
+  background: #288BE4;
+}
+
+#try-again:hover, #try-again:focus {
   background: #288BE4;
 }
 
 #button-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#try-again-text {
   display: table-cell;
   vertical-align: middle;
 }
@@ -77,7 +106,6 @@ header {
   width: 170px;
   height: 84px;
   padding: 10px;
-  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
@@ -88,11 +116,31 @@ header {
   vertical-align: middle;
 }
 
-#tweet:hover {
+#tweet:hover, #tweet:focus {
   background: #288BE4;
 }
 
 #tweet a {
   color: #fff;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+  #wheel-container {
+    width: 300px;
+  }
+
+  #marker {
+    width: 30px;
+    left: 135px;
+    top: 261px;
+  }
+
+  #tweet {
+    margin-top: 20px;
+  }
+
+  #try-again {
+    float: none;
+  }
 }
