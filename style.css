@@ -1,3 +1,8 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -79,11 +84,11 @@ header {
     float: left;
 }
 
-#button:hover, #button:focus {
+#button:hover {
   background: #288BE4;
 }
 
-#try-again:hover, #try-again:focus {
+#try-again:hover {
   background: #288BE4;
 }
 
@@ -116,7 +121,7 @@ header {
   vertical-align: middle;
 }
 
-#tweet:hover, #tweet:focus {
+#tweet:hover {
   background: #288BE4;
 }
 
