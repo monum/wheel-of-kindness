@@ -84,11 +84,11 @@ header {
     float: left;
 }
 
-#button:hover {
+#button:hover, #button:active {
   background: #288BE4;
 }
 
-#try-again:hover {
+#try-again:hover, #try-again:active {
   background: #288BE4;
 }
 
@@ -121,7 +121,7 @@ header {
   vertical-align: middle;
 }
 
-#tweet:hover {
+#tweet:hover, #tweet:active {
   background: #288BE4;
 }
 
