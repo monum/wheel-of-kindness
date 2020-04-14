@@ -28,6 +28,8 @@ function getRandomInt(min, max) {
 }
 
 (function() {
+  document.addEventListener("touchstart", function() {},false);
+  
   var wheel = document.querySelector('#wheel');
   var startButton = document.querySelector('#button');
   var tryAgainButton = document.querySelector('#try-again');
