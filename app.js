@@ -60,7 +60,7 @@ function getRandomInt(min, max) {
     if (piece <= 4){
       piece = piece + 4;
     } else {
-      piece = piece -4;
+      piece = piece - 4;
     }
     
     d3.select('#result').html(pieces[piece-1]);
