@@ -5,8 +5,8 @@ var pieces = [
   "<b>Call an older adult!</b> <br>Say hello to someone you know via phone or video chat.",
   "<b>Thank a front-line worker!</b> <br>Take a moment to share gratitude however you feel comfortable.",
   "<b>Read a book to our BPS scholars!</b> <br>Post your video on social media with the hashtag #GoodnightScholarsBPS.",
-  "<b>Make a 'mix tape' for your neighbors.</b> <br>Create a shared playlist of songs that you can enjoy virtually.",
-  "<b>Share your #IStayHomeFor story!</b> <br>Post a photo of someone you care about using the hashtags #BosStayHome and #IStayHomeFor.",
+  "<b>Make a 'mix tape' for your neighbors!</b> <br>Create a shared playlist of songs that you can enjoy virtually.",
+  "<b>Share your #IStayHomeFor story.</b> <br>Post a photo of someone you care about using the hashtags #BosStayHome and #IStayHomeFor.",
   "<b>Make a supportive window sign.</b> <br>Share a message of hope and unity and place it facing outwards in your window."
 ]
 
