@@ -16,7 +16,7 @@ var tweets = [
   "call an older adult",
   "write letters to a veteran",
   "thank a front-line worker",
-  "make a supportive window sign"
+  "make a supportive window sign",
   "make a mix tape for my neighbors",
   "read a book to our BPS scholars"
 ];
