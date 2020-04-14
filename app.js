@@ -29,7 +29,7 @@ function getRandomInt(min, max) {
 
 (function() {
   document.addEventListener("touchstart", function() {},false);
-  
+
   var wheel = document.querySelector('#wheel');
   var startButton = document.querySelector('#button');
   var tryAgainButton = document.querySelector('#try-again');
@@ -56,7 +56,13 @@ function getRandomInt(min, max) {
     wheel.style.transition = 'none';
     var actualDeg = deg % 360;
     var piece = Math.ceil(-1*(actualDeg)/45);
-    console.log(actualDeg, piece);
+
+    if (piece <= 4){
+      piece = piece + 4;
+    } else {
+      piece = piece -4;
+    }
+    
     d3.select('#result').html(pieces[piece-1]);
     d3.select('#try-again').style('display','table');
     d3.select('#tweet').style('display','table');
