@@ -1,24 +1,24 @@
   
 var pieces = [
-  "<b>Write letters to a veteran!</b> <br>To volunteer as a penpal, email <a href = 'mailto:vetvolunteer@boston.gov'>vetvolunteer@boston.gov</a>.",
   "<b>Sew a face mask!</b> <br>Make one for yourself or someone else. Details on <a href = 'https://www.boston.gov/news/information-face-coverings-covid-19'>boston.gov</a>.",
-  "<b>Call an older adult!</b> <br>Say hello to someone you know via phone or video chat.",
-  "<b>Thank a front-line worker!</b> <br>Take a moment to share gratitude however you feel comfortable.",
-  "<b>Read a book to our BPS scholars!</b> <br>Post your video on social media with the hashtag #GoodnightScholarsBPS.",
-  "<b>Make a 'mix tape' for your neighbors!</b> <br>Create a shared playlist of songs that you can enjoy virtually.",
   "<b>Share your #IStayHomeFor story!</b> <br>Post a photo of someone you care about using the hashtags #BosStayHome and #IStayHomeFor.",
-  "<b>Make a supportive window sign!</b> <br>Share a message of hope and unity and place it facing outwards in your window."
+  "<b>Call an older adult!</b> <br>Say hello to someone you know via phone or video chat.",
+  "<b>Write letters to a veteran!</b> <br>To volunteer as a penpal, email <a href = 'mailto:vetvolunteer@boston.gov'>vetvolunteer@boston.gov</a>.",
+  "<b>Thank a front-line worker!</b> <br>Take a moment to share gratitude however you feel comfortable.",
+  "<b>Make a supportive window sign!</b> <br>Share a message of hope and unity and place it facing outwards in your window.",
+  "<b>Make a 'mix tape' for your neighbors!</b> <br>Create a shared playlist of songs that you can enjoy virtually.",
+  "<b>Read a book to our BPS scholars!</b> <br>Post your video on social media with the hashtag #GoodnightScholarsBPS."
 ]
 
 var tweets = [
-  "write letters to a veteran",
   "sew a face mask",
-  "call an older adult",
-  "thank a front-line worker",
-  "read a book to our BPS scholars",
-  "make a mix tape for my neighbors",
   "share my IStayHomeFor story",
+  "call an older adult",
+  "write letters to a veteran",
+  "thank a front-line worker",
   "make a supportive window sign"
+  "make a mix tape for my neighbors",
+  "read a book to our BPS scholars",
 ];
 
 function getRandomInt(min, max) {
