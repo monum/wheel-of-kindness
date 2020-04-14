@@ -42,9 +42,9 @@ header {
 
 #marker {
   position: absolute;
-  width: 40px;
-  left: 180px;
-  top: 330px;
+  width: 32px;
+  left: 185px;
+  top: 358px;
   z-index: 999;
 }
 
