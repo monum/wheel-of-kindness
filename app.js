@@ -67,7 +67,7 @@ function getRandomInt(min, max) {
     d3.select('#tweet').style('display','table');
     d3.select('#try-again-text').html("Try again!");
     var tweet_text = tweets[piece-1];
-    var tweet_html = '<a href="https://twitter.com/intent/tweet?text=I am going to '+ tweet_text + ' for One Boston Day! What will you do??&button_hashtag=OneBostonDay&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text="Test" data-show-count="false">Tweet Your Act of Kindess!</a>';
+    var tweet_html = '<a href="https://twitter.com/intent/tweet?text=I am going to '+ tweet_text + ' for One Boston Day! What will you do?&button_hashtag=OneBostonDay&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text="Test" data-show-count="false">Tweet Your Act of Kindess!</a>';
     d3.select('#tweet-text').html(tweet_html);
     wheel.style.transform = `rotate(${actualDeg}deg)`;
   });
