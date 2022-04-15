@@ -1,20 +1,20 @@
   
 var pieces = [
+  "<b>Be kind to the Earth!</b> <br>Bring your compost to a Project Oscar community composting bin while listening to Dr. Wonder’s new jam, <a href='https://www.youtube.com/watch?v=R17SYAVXH-I'>'Compost, not Trash'</a>.",
+  "<b>Make a 'mix tape' for your neighbors.</b> <br>Create a shared playlist of songs that you can enjoy at an upcoming neighborhood block party.",
   "<b>Call an older adult!</b> <br>Say hello to someone you know via phone or video chat.",
   "<b>Thank a front-line worker!</b> <br>Take a moment to share gratitude however you feel comfortable.",
-  "<b>Make a 'mix tape' for your neighbors.</b> <br>Say hello to someone you know via phone or video chat.",
-  "<b>Be kind to the Earth!</b> <br>Bring your compost to a Project Oscar community composting bin while listening to Dr. Wonder’s new jam, <a href='https://www.youtube.com/watch?v=R17SYAVXH-I'>'Compost, not Trash'</a>.",
-  "<b>Support a small business!</b> <br>Have lunch at a local restaurant or visit your closest Main Streets businesses.",
+  "<b>Support a small business!</b> <br>Have lunch at a local restaurant or visit your closest Main Street businesses.",
   "<b>Take care of yourself.</b> <br>Snuggle up with your favorite book from the Boston Public Library or enjoy some time outdoors in a beautiful Boston park near you.",
   "<b>Get organized.</b> <br>Request a cleanup project in your neighborhood this summer.",
   "<b>Support the LGBTQ+ community.</b> <br>Volunteer or donate to a local organization uplifting equity."
 ]
 
 var tweets = [
-  "call an older adults",
-  "thank a front-line worker",
-  "make a 'mix tape' for my neighbors",
   "be kind to the earth",
+  "make a 'mix tape' for my neighbors",
+  "call an older adult",
+  "thank a front-line worker",
   "support small business",
   "take care of yourself",
   "get organized",
