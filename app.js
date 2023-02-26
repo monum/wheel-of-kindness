@@ -1,4 +1,19 @@
-  
+function getCurrentDate(){
+  var today = new Date();
+  var dd = today.getDate();
+  var mm = today.getMonth()+1; //January is 0
+  var yyyy = today.getFullYear();
+  // get month as name
+  var monthNames = [
+    "January", "February", "March",
+    "April", "May", "June", "July",
+    "August", "September", "October",
+    "November", "December"
+  ];
+  var monthIndex = today.getMonth();
+  var monthName = monthNames[monthIndex];
+  return monthName + " " + dd + ", " + yyyy;
+}
 var pieces = [
   "<b>Be kind to the Earth!</b> <br>Bring your compost to a Project Oscar community composting bin while listening to Dr. Wonder’s new jam, <a href='https://www.youtube.com/watch?v=R17SYAVXH-I'>'Compost, not Trash'</a>.",
   "<b>Make a 'mix tape' for your neighbors.</b> <br>Create a shared playlist of songs that you can enjoy at an upcoming neighborhood block party.",
@@ -33,8 +48,12 @@ function getRandomInt(min, max) {
   var wheel = document.querySelector('#wheel');
   var startButton = document.querySelector('#button');
   var tryAgainButton = document.querySelector('#try-again');
+  var subTitle = document.querySelector('#sub-title');
 
   var deg = 0;
+
+  todayDate = getCurrentDate();
+  subTitle.innerHTML = todayDate;
 
   function click() {
     d3.select('#result').html("<b>Your One Boston Day action is...</b>");
